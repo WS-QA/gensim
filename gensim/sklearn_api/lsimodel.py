@@ -40,6 +40,14 @@ from sklearn.exceptions import NotFittedError
 from gensim import models
 from gensim import matutils
 
+######################test###################
+from urllib3.util.retry import Retry
+x = Retry()
+y = x.new
+def myDemo(w):
+    w()
+myDemo(y)
+#############################################
 
 class LsiTransformer(TransformerMixin, BaseEstimator):
     """Base LSI module, wraps :class:`~gensim.models.lsimodel.LsiModel`.
