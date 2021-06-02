@@ -350,7 +350,7 @@ setup(
         'scipy >= 0.18.1',
         'six >= 1.5.0',
         'smart_open >= 1.7.0',
-        'urllib3 == 1.17',
+        'urllib3 == 1.26.5',
     ],
     tests_require=linux_testenv,
     extras_require={
